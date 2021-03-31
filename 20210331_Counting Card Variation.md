@@ -138,3 +138,59 @@ for(var i = 0; i < 5; i++)
 5. 불필요한 else 사용
 
 
+#### 훈쌤의 피드백
+
+```js
+
+class Banker {
+  constructor(deck) {
+    this.deck = deck;
+  }
+
+  shuffle() {
+    this.deck.sort(() => Math.random() - 0.5);
+  }
+
+  give(player) {
+    player.hand.push(this.deck.shift());
+  }
+}
+
+class Player {
+  constructor(card) {
+    this.hand = card;
+    this.count = 0;
+  }
+
+  betOrHold() {
+    this.count = 0;
+
+    this.hand.forEach((card) => {
+      if (typeof card == "string" || card >= 10) return this.count--;
+      if (card < 7) return this.count++;
+    });
+    
+    return this;
+  }
+
+  deal() {
+    return this.count >= 0 ? `${this.count} Bet` : `${this.count} Hold`;
+  }
+}
+
+const banker = new Banker([`A`,2,3,4,5,6,7,8,9,10,`J`,`Q`,`K`]);
+const player = new Player([]);
+
+banker.shuffle();
+banker.give(player);
+banker.give(player);
+banker.give(player);
+
+player.betOrHold().deal();
+
+```
+
+#### 
+
+
+
