@@ -190,7 +190,17 @@ player.betOrHold().deal();
 
 ```
 
-#### 
+#### 고친 점
+1. 문법 교정으로 간결해진 코드
+2. 전역변수 제거
+3. 클래스 책임 분리 (give)
+
+#### 알게된 점
+1. 인스턴스 생성가능한 함수(class, function)는 Pascal Case 사용 ( ex. class ClassName{} )
+2. method Chaining ( return this )
+3. forEach ( 배열 반복문 )
+4. 화살표함수 ( 나중에 설명 )
+5. sort 함수 동작 ( 잘 이해 못했으므로 나중에 다시 설명 듣자 )
 
 
 
