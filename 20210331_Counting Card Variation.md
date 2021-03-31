@@ -1,5 +1,5 @@
 ## FreeCodeCamp Basick JavaScript #75 - Counting Card
-FreeCodeCamp - JavaScript를 공부하던 중 Counting Card라는 예제를 풀게됐는데
+FreeCodeCamp - JavaScript를 공부하던 중 Counting Card라는 예제를 풀게됐는데<br>
 제한시간안에 풀지 못해서 다시 풀던 중 개인적으로 변형해봤다.
 
 #### 본 문제의 요구사항
