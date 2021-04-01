@@ -45,4 +45,10 @@
 # What i do?
 
 ### 2021.03.24 - JS Basic Syntax
-### 2021.03.25 - JS Array
+### 2021.03.25 - JS Array, Scope
+### 2021.03.26 - JS Comparison, 
+### 2021.03.27 - 다 같이 술마심
+### 2021.03.28 - 일요일 편히 쉬어-!
+### 2021.03.29 - if/else/switch/case, Counting Card, JS Objects
+### 2021.03.30 - 강훈쌤 약속
+### 2021.03.31 - 본인 Counting Card Variant 문제풀이, 피드백
