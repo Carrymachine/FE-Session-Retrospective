@@ -1,10 +1,10 @@
-## JS Object 이해, 정리
+# JS Object 이해, 정리
 
 객체는 일반적으로 여러 데이터와 함수로 이루어지는데 객체 안에 있을 때는 보통 Property, Method라고 부름
 
 관련된 데이터와 함수의 집합으로 즉, 현실의 사물을 프로그래밍으로 구현하는 것.
 
-#### 객체의 선언
+### 객체의 선언
 ```js
 var object = {
   name: "objectName",
@@ -12,7 +12,7 @@ var object = {
 };
 ```
 
-#### 객체의 속성(Property)
+### 객체의 속성(Property)
 선언된 객체를 보면 
 ```js
 name: "objectName",
@@ -21,7 +21,7 @@ age: "objectAge",
 콤마로 구분되는 이것을 객체의 Property 라고 부름
 
 
-#### 객체의 키(Key), 값(Value)
+### 객체의 키(Key), 값(Value)
 ```js
 name: "objectName",
 age: "objectAge",
