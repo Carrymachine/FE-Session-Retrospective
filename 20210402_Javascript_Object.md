@@ -56,5 +56,11 @@ objecet[name];  // "objectName"
 - Key가 일반적인 String일 경우 .(Dot notation) 사용
 - 띄어쓰기, 특수문자 등이 들어간 Key 혹은 변수일 경우 [](Bracket notation) 사용
 
+## --------
+2021-04-14 추가내용
+
+Object는 참조형으로 Key, Value 값 및 순서가 같은 Object의 엄격한 비교(===)가 불가능하다.
+이때는 참조형을 원시형으로 바꿔서 비교해야한다.
+Object.enries / JSON stringify를 써야하는데 아직 쓸 상황은 아닌 것 같으니까 그때되면 와서 수정
 
 
