@@ -43,7 +43,7 @@
 ### 2021.06.12 - 토요일 응애
 ### 2021.06.13 - 자습(Counting Component: state 이해를 위한)
 ### 2021.06.14 - 강훈쌤 Fast campus 강의 제작 미팅, 자습(TodoList 점검 및 Git CLI 사용법)
-### 2021.06.15 - <THIS>
+### 2021.06.15 - THIS
 ### 2021.06.16 - React Pagination Component Start 
 ### 2021.06.17 - React Pagination Component End, <styled-components>
 ### 2021.06.18 - 
