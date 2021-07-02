@@ -57,3 +57,5 @@
 ### 2021.06.28 - 
 ### 2021.06.29 - React class component mounts(willmount didmount etc ..)
 ### 2021.06.30 - 자습(freecodecamp react ex1 end)
+### 2021.07.01 - 김지유 첫출근이라 피곤하다고 쉼
+### 2021.07.02 - 
