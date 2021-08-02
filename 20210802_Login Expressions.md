@@ -4,11 +4,10 @@
 
 ```js
 function solution(new_id) {
-    var answer = '';
-    
-    if()
-    
-    answer = new_id.toLowerCase().replace(/[!@#*]/gi,"").replace(/\.+(?=\.)/g,"");
+    let answer = '';
+    let removeSpecialChar = /[!@#*]/g;
+    let removeLoopDot = /\.+(?=\.)/g;
+    answer = new_id.toLowerCase().replace(removeSpecialChar,"").replace(removeLoopDot,"");
     
     
     return answer;
